@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoMe - Gestão Inteligente de Estoque</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .email-container {
+            position: relative;
+            max-width: 600px;
+            width: 100%;
+            background-color: #ffffff;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .email-image {
+            width: 100%;
+            display: block;
+        }
+        .clickable-area {
+            position: absolute;
+            cursor: pointer;
+            transition: opacity 0.3s;
+        }
+        .clickable-area:hover {
+            opacity: 0.8;
+        }
+        /* Posições dos botões clicáveis (ajustadas proporcionalmente) */
+        .btn-agendar {
+            top: 60.5%;
+            left: 10%;
+            width: 38%;
+            height: 4.5%;
+        }
+        .btn-teste {
+            top: 60.5%;
+            left: 52%;
+            width: 38%;
+            height: 4.5%;
+        }
+        .btn-contratar {
+            top: 82.5%;
+            left: 31%;
+            width: 38%;
+            height: 4%;
+        }
+        .link-landing {
+            top: 92.5%;
+            left: 18%;
+            width: 28%;
+            height: 1.5%;
+        }
+        .link-whatsapp {
+            top: 92.5%;
+            left: 48%;
+            width: 35%;
+            height: 1.5%;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <img src="https://files.manuscdn.com/user_upload_by_module/session_file/310519663236711342/faObFTkGdxnDltAi.png" alt="AutoMe Email Marketing" class="email-image">
+        
+        <!-- Áreas clicáveis invisíveis sobre os botões -->
+        <a href="https://calendar.app.google/eSysWXodLcHedjQSA" target="_blank" class="clickable-area btn-agendar"></a>
+        <a href="https://wa.me/554791685594?text=Quero%20testar%20gr%C3%A1tis%20o%20Autome." target="_blank" class="clickable-area btn-teste"></a>
+        <a href="https://wa.me/554791685594?text=Quero%20contratar%20o%20Autome." target="_blank" class="clickable-area btn-contratar"></a>
+        <a href="https://autome.com.br/" target="_blank" class="clickable-area link-landing"></a>
+        <a href="https://wa.me/554791685594?text=Quero%20agendar%20uma%20reuni%C3%A3o%20com%20a%20Autome." target="_blank" class="clickable-area link-whatsapp"></a>
+    </div>
+</body>
+</html>
